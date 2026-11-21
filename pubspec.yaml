@@ -1,0 +1,25 @@
+name: foodplaner
+description: Savaitės maisto planavimas su AI (Ollama) ir LAN sinchronizacija.
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.5.0
+  web_socket_channel: ^3.0.0
+  path_provider: ^2.1.3
+  flutter_secure_storage: ^9.2.2
+  intl: ^0.19.0
+  uuid: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
